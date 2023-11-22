@@ -1,0 +1,150 @@
+*{margin: 0; border: 0;}
+body{background-color: #6633AA; position: relative;}
+nav{background-color: #5566AA; padding: 20px;}
+li{list-style: none; display: inline-block;}
+a{text-decoration: none; color: #FFFFFF; padding: 10px;}
+h1{color: #FFFFFF; font-size: 60px; padding: 40px; text-align-last: center; font-family: 'Ubuntu', sans-serif;}
+.contenedor{width: 80%; margin: auto; display:flex; justify-content: space-between;}
+img{width: 500px}
+h2{text-align-last: center; margin: auto; background-color: rgba(250, 250, 250, .50); width: 300px; padding: 20px; font-family: 'Ubuntu', sans-serif;}
+h5{color: #F00;}
+
+div.nav ul{
+	display: flex;
+}
+
+div.nav ul li{
+	list-style: none;
+	padding: 15px 50px;
+	transition: all 1s;
+}
+
+div.nav ul li:hover{
+	background-color: #E98105;
+}
+
+div.contenedor{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+div.contenedor img{
+	width: 500px;
+	display: inline;
+	transition: all 1s;
+}
+
+div.contenedor img:hover{
+	filter: blur(3px);
+}
+
+div.Imagenes{
+	width: 80%;
+	right: 0;
+	left: 0;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+div.Imagenes img {
+	width: 80%;
+	height: 200px;
+	margin: 15px;
+}
+
+div.noticias {
+	width: 90%;
+	right: 0;
+	left: 0;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+div.noticias img {
+	width: 80%;
+	height: 200px;
+	margin: 15px;
+}
+
+
+footer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+
+	position: static;
+	bottom: 100%;
+
+	background-color: #CC00FF;
+	padding: 20 px 10px;
+}
+
+footer div.copy {
+ 	color: white;
+ }
+
+footer div.copy p{
+	padding: 15px 5px;
+	font-size: 20px;
+}
+
+footer div.redes a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	background: #314652;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	transition: all .4s ease-in-out;
+}
+
+footer div.redes a:hover{
+	transform: scale(1.2);
+}
+
+
+div.noticias{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+div.noticias div{
+	width: 300px;
+}
+
+
+div.noticias div img{
+	width: 100%;
+	position: relative;
+	transition: all 1s;
+}
+
+div.noticias div h1{
+	font-size: 30px;
+	color: #FC9;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+div.noticias div div.desc{
+	background-color: #CC99FF;
+	padding: 10px;
+}
+
+div.noticias div img:hover{
+	filter: blur(3px);
+	transform: translate(0%, -10%);
+}
